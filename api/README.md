@@ -1,4 +1,4 @@
-# Ayuda a Melida — API de Gestión de Riesgo
+# API — API de Gestión de Riesgo
 
 Backend REST para analizar riesgo de tiendas usando inteligencia artificial (Gemini 2.5 Flash). Desarrollado con FastAPI.
 
@@ -34,7 +34,7 @@ python --version
 Ubícate en la carpeta del proyecto:
 
 ```bash
-cd ruta/del/proyecto/Ayuda a Melida
+cd ruta/del/proyecto/API
 ```
 
 ### 4. Crear un entorno virtual (recomendado)
@@ -153,7 +153,7 @@ Abre `http://localhost:8000/docs` en tu navegador.
 ## Estructura del proyecto
 
 ```
-Ayuda a Melida/
+API/
 ├── app/
 │   ├── __init__.py
 │   ├── main.py                  # App FastAPI, CORS, health check

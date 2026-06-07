@@ -3,7 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from app.endpoints.tiendas import router as tiendas_router
 
 app = FastAPI(
-    title="Ayuda a Melida - API de Gestión de Riesgo",
+    title="API de Gestión de Riesgo",
     description="Backend para análisis de riesgo de tiendas con integración Gemini.",
     version="1.0.0",
 )
@@ -20,4 +20,4 @@ app.include_router(tiendas_router)
 
 @app.get("/health")
 def health():
-    return {"status": "ok", "service": "ayuda-a-melida"}
+    return {"status": "ok", "service": "api"}
